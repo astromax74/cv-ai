@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Base layout */
+html, body, #root {
+  height: 100%;
+}
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
